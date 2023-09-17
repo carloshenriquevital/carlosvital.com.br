@@ -4,7 +4,9 @@
   "description": "Site portfólio pessoal https://carlosvital.com.br/",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --ckeck .",
+    "lint:fix": "prettier --write ."
   },
   "author": "Carlos Henrique dos Santos Vital <carloshenrique.vital@gmail.com>",
   "license": "MIT",
